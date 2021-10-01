@@ -36,14 +36,8 @@
       font-size:12pt;
     }
 
-    h1 {
-      font-size:30pt;
-	  font-family: algerian;
-    }
-	
-	 h2 {
-      font-size:30pt;
-	  font-family: algerian;
+    h1, h2 {
+      font-size:14pt;
     }
 
     .correct {
@@ -155,9 +149,8 @@ function setupPrint(data) {
         config = {
           elName: 'div',
           children: [
+            { elName: 'h1', text: mainQuiz.strQuizName},
             { elName: 'h2', text: userName, enabled: userName != null && userName.length > 0},
-			{ elName: 'h1', text: mainQuiz.strQuizName},
-            
           ]
         };
 
@@ -397,32 +390,10 @@ window.addEventListener('message', function (e) {
 
 </head>
 <body>
-<center>
-<p style="font-family:gothicE; font-size:60px; font-weight:bold">Completion of Mini-Certificate</p>
-</center>
   <div id="header"></div>
- <script >
-window.onload = setInterval(clock,1000);
-function clock()
-{
-    var d = new Date();
-    var date = d.getDate();
-    var year = d.getFullYear();
-    var month = d.getMonth();
-    var monthArr = ["January", "February","March", "April", "May", "June", "July", "August", "September", "October", "November","December"];
-    month = monthArr[month];
-    document.getElementById("date").innerHTML=date+" "+month+", "+year;
-}
-</script> 
-<p  style="font-family:gothicE; font-size:30px; font-weight:bold">was sucessfully completed on</p>
-<p  style="font-family:gothicE; font-size:30px; font-weight:bold"; id="date"></p>
-<img src="quizimages/signsdl.png"; alt="HTML5 Icon"; style="width:150px"; align="left"></img>
   <p>&nbsp;</p>
+  <div id="courseSummary"></div>
   <p>&nbsp;</p>
-<p  style="font-family:arial; font-size:20px; font-weight:bold; text-align:left">________________________</p>
-<p  style="font-family:arial; font-size:30px; font-weight:bold; text-align:left">Dr. Stacey D. Lyle, RPLS</p>
-<img src="quizimages/tamu.png"; align="right"; align="top"; style="width:400px"> </img>
-
-
+  <div id="quizReview"></div>
 </body>
 </html>
