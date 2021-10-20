@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="Module 1 Geographic Information Systems_UNLOCKED" />
+              <option name="title_text" value="Module 1 Geographic Information Systems_ UNLOCKED" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1482,7 +1482,7 @@
             <slidelink slideid="_player.6LSa2e4jmUT.61nMgQq7nnt" displaytext="Components of GIS Menu" expand="false" type="slide" />
             <slidelink slideid="_player.6LSa2e4jmUT.6GYgxXEXNVO" displaytext="Coordinate Systems" expand="false" type="slide" />
             <slidelink slideid="_player.6LSa2e4jmUT.6j9hk8ChR63" displaytext="Important Factors to Consider" expand="false" type="slide" />
-            <slidelink slideid="_player.6LSa2e4jmUT.6AkfE10ryoA" displaytext="Section 1 Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.6LSa2e4jmUT.6AkfE10ryoA" displaytext="What is GIS Quiz" expand="false" type="slide" />
             <slidelink slideid="_player.6LSa2e4jmUT.5vYxm3m1LQx" displaytext="Question 1" expand="false" type="slide" />
             <slidelink slideid="_player.6LSa2e4jmUT.648N2u01ASx" displaytext="Question 2" expand="false" type="slide" />
             <slidelink slideid="_player.6LSa2e4jmUT.653ewXEUZxM" displaytext="Question 3" expand="false" type="slide" />
@@ -1501,12 +1501,12 @@
         </slidelink>
         <slidelink slideid="_player.6omgFjI2FyK" displaytext="Section 3: 3D Modeling" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6omgFjI2FyK.6BmGjDb94bd" displaytext="Section 3: 3D Modeling" expand="false" type="slide" />
+            <slidelink slideid="_player.6omgFjI2FyK.6BmGjDb94bd" displaytext="Section 3: GIS-CAD-BIM Fusion" expand="false" type="slide" />
             <slidelink slideid="_player.6omgFjI2FyK.6esN2ApRCUk" displaytext="What is CAD and BIM?" expand="false" type="slide" />
             <slidelink slideid="_player.6omgFjI2FyK.5st3e6icr52" displaytext="3D Model Workflow" expand="false" type="slide" />
             <slidelink slideid="_player.6omgFjI2FyK.64PooAEXgaS" displaytext="Major Point Layout" expand="false" type="slide" />
             <slidelink slideid="_player.6omgFjI2FyK.6UN9GIHAo2s" displaytext="Sorting Drag and Drop" expand="false" type="slide" />
-            <slidelink slideid="_player.6omgFjI2FyK.6rYnCZcDvLJ" displaytext="Section 3 Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.6omgFjI2FyK.6rYnCZcDvLJ" displaytext="GIS-CAD-BIM Fusion Quiz" expand="false" type="slide" />
             <slidelink slideid="_player.6omgFjI2FyK.6VphX5FGCC4" displaytext="Question 1" expand="false" type="slide" />
             <slidelink slideid="_player.6omgFjI2FyK.6KY9EGSd44D" displaytext="Question 2" expand="false" type="slide" />
             <slidelink slideid="_player.6omgFjI2FyK.6HAPNUBBmJU" displaytext="Question 3" expand="false" type="slide" />
