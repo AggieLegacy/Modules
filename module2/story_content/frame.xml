@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="Module 2 GNSS and UAS" />
+              <option name="title_text" value="Module 2 GNSS and UAS_UNLOCKED" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -47,7 +47,7 @@
       </optiongroup>
       <optiongroup name="menuoptions">
         <options>
-          <option name="flow" value="locked" />
+          <option name="flow" value="free" />
           <option name="wraplistitems" value="false" />
           <option name="tooltips" value="true" />
           <option name="autocollapse" value="true" />
@@ -1478,7 +1478,7 @@
             <slidelink slideid="_player.6LSa2e4jmUT.6TQ9sUk1pKW" displaytext="Section 1 Header" expand="false" type="slide" />
             <slidelink slideid="_player.6LSa2e4jmUT.5qWIj7JJZdx" displaytext="Global Navigation Satellite Systems" expand="false" type="slide" />
             <slidelink slideid="_player.6LSa2e4jmUT.69JZnWvJIqD" displaytext="GPS Solutions" expand="false" type="slide" />
-            <slidelink slideid="_player.6LSa2e4jmUT.6AkfE10ryoA" displaytext="Section 1 Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.6LSa2e4jmUT.6AkfE10ryoA" displaytext="GNSS Quiz" expand="false" type="slide" />
             <slidelink slideid="_player.6LSa2e4jmUT.5vYxm3m1LQx" displaytext="Question 2" expand="false" type="slide" />
             <slidelink slideid="_player.6LSa2e4jmUT.648N2u01ASx" displaytext="Question 1" expand="false" type="slide" />
             <slidelink slideid="_player.6LSa2e4jmUT.653ewXEUZxM" displaytext="Question 3" expand="false" type="slide" />
@@ -1514,11 +1514,11 @@
             <slidelink slideid="_player.6omgFjI2FyK.5bAp0or2w1y" displaytext="GIS Collection Web Tool" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.5VvfWtGJBRH" displaytext="Final Quiz" expand="false" type="slide">
+        <slidelink slideid="_player.6PHYFLpXk2d" displaytext="Final Quiz" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.5VvfWtGJBRH.6LVVXVawCtB" displaytext="Final Quiz" expand="false" type="slide" />
-            <slidelink slideid="_player.5VvfWtGJBRH.6Ln3r1mlRBX" displaytext="Draw from Final Quiz Questions" expand="false" type="slide" />
-            <slidelink slideid="_player.5VvfWtGJBRH.5gbVaeRuhfp" displaytext="Exit Layout" expand="false" type="slide" />
+            <slidelink slideid="_player.6PHYFLpXk2d.6D6w7s9PUlW" displaytext="Final Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.6PHYFLpXk2d.6T4jNmdB424" displaytext="Draw from Final Quiz Questions" expand="false" type="slide" />
+            <slidelink slideid="_player.6PHYFLpXk2d.6GNTTzbn0R0" displaytext="Exit Layout" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
