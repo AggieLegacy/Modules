@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00011100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0xa7e2e9">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00011000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0xa7e2e9">
   <layouts>
-    <layout name="npnxnanbsnfns00011100101" font="Lato" controllayout="npnxnanbsnfns00011100101" colorscheme="pxabnsnfns00011100101" string_table="pxabnsnfns00011100101" />
-    <layout name="pxabnsnfns00011100101" font="Lato" controllayout="pxabnsnfns00011100101" colorscheme="pxabnsnfns00011100101" string_table="pxabnsnfns00011100101" />
-    <layout name="npxnabnsnfns00011100101" font="Lato" controllayout="npxnabnsnfns00011100101" colorscheme="pxabnsnfns00011100101" string_table="pxabnsnfns00011100101" />
-    <layout name="npnxnanbnsnfns00011100101" font="Lato" controllayout="npnxnanbnsnfns00011100101" colorscheme="pxabnsnfns00011100101" string_table="pxabnsnfns00011100101" />
-    <layout name="pxabnsnfns00011100100" font="Lato" controllayout="pxabnsnfns00011100100" colorscheme="pxabnsnfns00011100101" string_table="pxabnsnfns00011100101" />
+    <layout name="npnxnanbsnfns00011000101" font="Lato" controllayout="npnxnanbsnfns00011000101" colorscheme="pxabnsnfns00011000101" string_table="pxabnsnfns00011000101" />
+    <layout name="pxabnsnfns00011000101" font="Lato" controllayout="pxabnsnfns00011000101" colorscheme="pxabnsnfns00011000101" string_table="pxabnsnfns00011000101" />
+    <layout name="npxnabnsnfns00011000101" font="Lato" controllayout="npxnabnsnfns00011000101" colorscheme="pxabnsnfns00011000101" string_table="pxabnsnfns00011000101" />
+    <layout name="npnxnanbnsnfns00011000101" font="Lato" controllayout="npnxnanbnsnfns00011000101" colorscheme="pxabnsnfns00011000101" string_table="pxabnsnfns00011000101" />
+    <layout name="pxabnsnfns00011000100" font="Lato" controllayout="pxabnsnfns00011000100" colorscheme="pxabnsnfns00011000101" string_table="pxabnsnfns00011000101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="Module 1 Geographic Information Systems_ UNLOCKED" />
+              <option name="title_text" value="Module 1: Geographic Information Systems_ UNLOCKED" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -27,7 +27,7 @@
           </option>
           <optionlist name="tabs">
             <listitems>
-              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="resources" value="false" group="linkright" />
               <listitem name="outline" value="true" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
@@ -48,7 +48,7 @@
       <optiongroup name="menuoptions">
         <options>
           <option name="flow" value="free" />
-          <option name="wraplistitems" value="false" />
+          <option name="wraplistitems" value="true" />
           <option name="tooltips" value="true" />
           <option name="autocollapse" value="true" />
           <option name="autonumber" value="false" />
@@ -90,7 +90,7 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns00011100101">
+    <control_layout name="npnxnanbsnfns00011000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -103,7 +103,7 @@
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -113,7 +113,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00011100101">
+    <control_layout name="pxabnsnfns00011000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -126,7 +126,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -136,7 +136,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns00011100101">
+    <control_layout name="npxnabnsnfns00011000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -149,7 +149,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -159,7 +159,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00011100101">
+    <control_layout name="npnxnanbnsnfns00011000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -172,7 +172,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -182,7 +182,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00011100100">
+    <control_layout name="pxabnsnfns00011000100">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -195,7 +195,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -207,7 +207,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="pxabnsnfns00011100101">
+    <colorscheme name="pxabnsnfns00011000101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1363,7 +1363,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="pxabnsnfns00011100101">
+    <string_table name="pxabnsnfns00011000101">
       <string id="three_image_items">items</string>
       <string id="three_image_viewed">viewed</string>
       <string id="three_image_of">of</string>
@@ -1473,7 +1473,7 @@
             <slidelink slideid="_player.654qU6yrcYt.5t5oh3s7kTs" displaytext="Course Navigation" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.6LSa2e4jmUT" displaytext="Section 1:  What is GIS" expand="true" type="slide">
+        <slidelink slideid="_player.6LSa2e4jmUT" displaytext="Section 1:  What is GIS" expand="false" type="slide">
           <links>
             <slidelink slideid="_player.6LSa2e4jmUT.6ltiA7JsZFf" displaytext="Section 1: What is GIS?" expand="false" type="slide" />
             <slidelink slideid="_player.6LSa2e4jmUT.6d20UHbFOju" displaytext="Geographic Information Systems" expand="false" type="slide" />
@@ -1488,7 +1488,7 @@
             <slidelink slideid="_player.6LSa2e4jmUT.653ewXEUZxM" displaytext="Question 3" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.6jJkhfeGED1" displaytext="Section 2: GIS Usage" expand="true" type="slide">
+        <slidelink slideid="_player.6jJkhfeGED1" displaytext="Section 2: GIS Usage" expand="false" type="slide">
           <links>
             <slidelink slideid="_player.6jJkhfeGED1.6iVrzdG6DjA" displaytext="Section 2: GIS Usage" expand="false" type="slide" />
             <slidelink slideid="_player.6jJkhfeGED1.6jKxVFBdokO" displaytext="GeoCoding" expand="false" type="slide" />
@@ -1499,7 +1499,7 @@
             <slidelink slideid="_player.6jJkhfeGED1.6CR4FKLEbnR" displaytext="Question 3" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.6omgFjI2FyK" displaytext="Section 3: 3D Modeling" expand="true" type="slide">
+        <slidelink slideid="_player.6omgFjI2FyK" displaytext="Section 3: 3D Modeling" expand="false" type="slide">
           <links>
             <slidelink slideid="_player.6omgFjI2FyK.6BmGjDb94bd" displaytext="Section 3: GIS-CAD-BIM Fusion" expand="false" type="slide" />
             <slidelink slideid="_player.6omgFjI2FyK.6esN2ApRCUk" displaytext="What is CAD and BIM?" expand="false" type="slide" />
@@ -1512,7 +1512,7 @@
             <slidelink slideid="_player.6omgFjI2FyK.6HAPNUBBmJU" displaytext="Question 3" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.6O2nInTPPj4" displaytext="Section 4: Experiments" expand="true" type="slide">
+        <slidelink slideid="_player.6O2nInTPPj4" displaytext="Section 4: Experiments" expand="false" type="slide">
           <links>
             <slidelink slideid="_player.6O2nInTPPj4.5mY8pn0ifm8" displaytext="Section 4: Experiment" expand="false" type="slide" />
             <slidelink slideid="_player.6O2nInTPPj4.5pOn9NPOISw" displaytext="GeoCoding" expand="false" type="slide" />
@@ -1530,7 +1530,7 @@
       </links>
     </outline>
   </nav_data>
-  <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#BABBBA'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;" />
+  <resource_data description="" />
   <transcript_data />
   <glossary_data />
 </bwFrame>
